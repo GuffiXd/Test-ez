@@ -1,0 +1,43 @@
+@keyframes testAnimation {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 1800px;
+        top: 0px;
+    }
+    50%{
+        left: 1800px;
+        top: 800px;
+    }
+    75% {
+        left: 0px;
+        top: 800px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Использовать keyframes */
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: testAnimation 10s linear;
+    animation-iteration-count: infinite;
+    transition: 3s;
+    position: relative;
+}

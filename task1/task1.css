@@ -1,0 +1,82 @@
+/* стили для таска 1*/
+header {
+   height: 96px;
+   display: flex;
+   top: 0;
+   left: 0;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+nav>ul {
+   display: flex;
+   list-style: none;
+   gap: 40px;
+}
+
+nav>ul>li {
+   color: #230B59;
+}
+
+button {
+   border: 4px;
+   border-color: grey;
+   background-color: #1B75BB;
+   color: white;
+   height: 54px;
+   width: 134px;
+   border-radius: 10px;
+}
+
+body {
+font-family: roboto;
+   background-image: url(./image/zOY7ROKMih\ 1.png);
+   background-size: cover;
+   /* Изображение растягивается, чтобы покрыть весь элемент */
+   background-position: center;
+   /* Изображение выравнивается по центру */
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+.main__frame {
+   display: flex;
+   flex-direction: column;
+   padding: 230px;
+}
+.seren {
+   color:#1B75BB;
+   font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.1em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.stay {
+   font-family: Gelasio;
+font-size: 57px;
+font-weight: 600;
+line-height: 68.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+span {
+   color: #1B75BB;
+}
+.pet {
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
